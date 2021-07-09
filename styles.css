@@ -1,0 +1,30 @@
+h1 { color: blue; }
+
+ body{
+     color: black;
+     background-color:aqua;
+ }
+ h1{
+    font: bold;
+ }
+
+ h2{
+     
+     font: 2em Arial;
+ }
+
+ p {
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid #000;
+  background-color: white;
+  
+}
+ div{
+     background-color: aquamarine;
+ } 
+ 
+
+ 
