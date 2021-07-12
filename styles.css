@@ -1,30 +1,139 @@
-h1 { color: blue; }
 
- body{
-     color: black;
-     background-color:aqua;
+ :root {
+    --clr-primary-200: #f3eed9;
+    --clr-primary-400: coral;
+  
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: blue;
+  
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+  }
+ 
+ 
+ *{
+     box-sizing: border-box;
  }
+ 
  h1{
-    font: bold;
+     text-align: center;
+    font: bold, arial;
+    font-size: 60px;
+    color: brown
+
  }
+
+ .bg-dark {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-neutral-900);
+  }
 
  h2{
      
      font: 2em Arial;
  }
+ body{
+     background-image: url(image2.jpg);
+     background-size: 500px;
+     background-repeat: repeat-x;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li{
+    float: left;
+  }
+
+  
+
+
+
+ 
+
+
+
+ body
+ {
+    background-color :aquamarine;
+     font-family: 'Times New Roman', Times, serif;
+    background-image: url(images.jpg);
+    background-size: 500px;
+    background-repeat: repeat-x;
+
+ }
+
+
+
+ 
 
  p {
-  width: 500px;
-  height: 400px;
-  padding: 20px;
-  margin: 30px;
-  border: 1px solid #000;
-  background-color: white;
-  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
- div{
-     background-color: aquamarine;
- } 
  
 
+ img {
+    display: block;
+    padding: 10px;
+    
+  }
+  div style
+  {
+      background-color: chartreuse;
+      padding: 20px;
+
+  }
+
+  .bg-primary {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-400);
+  }
+
+ section,header
+ {
+     padding: 2rem ;
+     @media(min-width: 30em;){
+         header,
+         section{
+             padding: 3rem 0;
+         }
+     }
+ }
+
  
+
+
+
+
+
+ @media (max-width: 600px) {
+    nav {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+ .split {
+    display: flex;
+    flex-direction: column;
+  }
+  .container--narrow {
+    max-width: 34rem;
+  }
+
+ 
+  
